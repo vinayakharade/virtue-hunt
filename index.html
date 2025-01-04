@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the Picture</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Introductory Page -->
+  <div id="intro-page">
+    <h1 id="game-heading">BRAHMAKUMARIS PRESENTS VIRTUES GAME</h1>
+    <div id="loading-icon">
+      <div class="spinner"></div>
+      <p>Loading...</p>
+    </div>
+  </div>
+
+  <!-- Main Game Page -->
+  <div id="game-container" style="display: none;">
+    <h1>Guess the Picture!</h1>
+    <div id="image-container">
+      <img id="game-image" src="assets/respect.jpg" alt="Guess this">
+    </div>
+    <div id="letter-boxes"></div>
+    <div id="letters"></div>
+    <p id="message"></p>
+    <button id="next-button" disabled>Next</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
